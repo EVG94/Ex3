@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/Profile">
+
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.example.ex3.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/Education"
+        android:name="com.example.ex3.EducationFragment"
+        android:label="Education"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/Job"
+        android:name="com.example.ex3.WorkFragment"
+        android:label="Job"
+        tools:layout="@layout/fragment_work" />
+    <fragment
+        android:id="@+id/Settings"
+        android:name="com.example.ex3.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/Statistic"
+        android:name="com.example.ex3.StatisticFragment"
+        android:label="Statistic"
+        tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/Task"
+        android:name="com.example.ex3.TaskFragment"
+        android:label="Task"
+        tools:layout="@layout/fragment_task" />
+</navigation>

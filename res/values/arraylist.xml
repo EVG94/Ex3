@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_item">
+
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Porshe</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+
+    </string-array>
+</resources>

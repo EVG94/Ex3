@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".EducationFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATABASE WITH SQL"
+        android:textSize="33sp"
+        android:fontFamily="casual"
+        android:gravity="center"/>
+
+
+   <LinearLayout
+       android:padding="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+       <EditText
+           android:id="@+id/etvName"
+           android:layout_width="match_parent"
+
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:hint="Insert you Name"
+           android:inputType="textPersonName"
+           android:text="" />
+
+       <EditText
+           android:id="@+id/etvAge"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:hint="Insert you age"
+           android:inputType="number"
+           android:text="" />
+
+       <Button
+           android:id="@+id/btn_insert"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Insert" />
+       <LinearLayout
+           android:layout_width="match_parent"
+
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="3dp"
+               android:layout_weight="1"
+               android:text="Load"
+               android:id="@+id/btnLoad"/>
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Update"
+               android:layout_weight="1"
+               android:id="@+id/btnUpdate"/>
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Delete"
+               android:layout_weight="1"
+               android:id="@+id/btnDelete"/>
+       </LinearLayout>
+
+
+   </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvResult"/>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
